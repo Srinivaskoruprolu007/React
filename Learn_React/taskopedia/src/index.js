@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./CSS/Style.css";
 import Header from "./Layout/Header";
-import Student from "./Students";
 import Footer from "./Layout/Footer";
 import MainBody from "./MainBody";
 
@@ -11,7 +10,6 @@ root.render(
   <div style={{backgroundColor:"black", color:"gray"}}>
     <Header />
     <MainBody />
-    
     <Footer />
   </div>
 );
